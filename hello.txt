@@ -1,1 +1,3 @@
-sup! 
+esse é um repositorio de um curso de algoritmos e estrutura 
+de dados em javascript, as funções estão decaclaradas em ingles
+pq não vi necessidade de traduzir uma função
