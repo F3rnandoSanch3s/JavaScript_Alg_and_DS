@@ -3,10 +3,12 @@
 function addUpToSecond(n) {
     return n * (n + 1) / 2; //bigO(1) 
 }
+console.log(addUpToSecond(3))//6
 //sempre 3 operações "n *" "(n + 1)" "/2".
 //vai praticamente ser uma função constante f(n)=1.
 //pq indepedente os valores colocados o numero de operações
 //necessarias não muda.
+
 
 function addUpToFirst(n) {
     var total = 0;
@@ -15,11 +17,13 @@ function addUpToFirst(n) {
     }
     return total;
 }
+console.log(addUpToFirst(3))//6
 //se N for 1 ou 10000, tanto faz, o numero de operações vai
 //ser definido por N, se N=1000, 1000 operações necessarias
-//devido ao total += i; que sempre vai receber um novo valor e 
+//devido ao "total += i;" que sempre vai receber um novo valor e 
 //acrescentar para a nova operação.
 //logo plotando uma função linear f(n)=n
+
 
 function countUpAndDown(n) {
     console.log("Going up!");
@@ -32,9 +36,11 @@ function countUpAndDown(n) {
     }
     console.log("Back down. Bye!");
 }
+console.log(countUpAndDown(3))
 //o numero de operações necessarias vai ser definido por N.
 //esse é um caso parecido com o anterior, apenas usando 2 laços for
 //plotando na tela tbm uma função linear f(n)=n.
+
 
 function printAllPairs(n) {
     for (var i = 0; i < n; i++) {
@@ -43,6 +49,7 @@ function printAllPairs(n) {
       }
     }
 }
+console.log(printAllPairs(3))
 //aqui temos o exemplo de uma função quadratica f(n)=n2,
 //essa função coloca um laço for dentro do outro, deixando 
 //um bigo(n) dentro de outro bigO(n).
