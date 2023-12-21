@@ -1,0 +1,16 @@
+para facilitar quem gostaria de saber com mais facilidade e sem precisar plotar
+em um grafico, existe algumas regras gerais, pode não servir para todos os exemplos
+mas ja é uma ajuda para começar.
+
+- constantes não fazem diferença
+
+bigO(2n) -> bigO(n)
+bigO(500) -> bigO(1)
+bigO(13n2) -> bigO(n2)
+
+- operações aritmeticas são constantes
+- atribuições de variáveis são constantes
+- elementos acessaveis em um array (por index) ou objeto (por chave) 
+  é constante
+- Em um loop, a complexidade é o comprimento do loop vezes a complexidade
+  do que acontece dentro do loop

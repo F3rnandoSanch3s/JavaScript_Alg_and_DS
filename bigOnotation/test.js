@@ -18,4 +18,3 @@ function addUpTo2(n){
 
 console.log(addUpTo2(3))//6
 console.log(addUpTo2(6))//21
-console.log(addUpTo2(100))//5050
